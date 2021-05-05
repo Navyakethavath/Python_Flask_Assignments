@@ -24,7 +24,7 @@ print(type(name), name)
 name = bool(name)
 print(type(name), name)
 
-name = int(name)
+name = int(name)  #int and float conversions gives errors for a string #
 print(type(name), name)
 name = float(name)
 print(type(name), name)
@@ -56,7 +56,7 @@ print(type(unmarried), unmarried)
 unmarried = str(unmarried)
 print(type(unmarried), unmarried)
 
-unmarried = int(unmarried)
+unmarried = int(unmarried))   # we find errors in this coversion of  bool to int and float #
 print(type(unmarried), unmarried)
 unmarried = float(unmarried)
 print(type(unmarried), unmarried)
