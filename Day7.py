@@ -7,11 +7,8 @@ for i in range(len(word)):
        print (i)
 
 #Reverse the words of a string
-s = "I Love Python"
-a = s.split()
-a.reverse()
-result = " ".join(a)
-print(result)
+s = "Hello world"
+print(s[::-1])
 
 #Remove duplicate elemnts without using set()
 li = [1,2,3,3,2,4]
